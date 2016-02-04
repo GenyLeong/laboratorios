@@ -1,0 +1,158 @@
+/*START CABECERA*/
+header{
+	text-align: center;
+	color:#071321;
+	 padding-top: 2%;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+    line-height: 1%;
+    text-transform: uppercase;
+    white-space: normal;
+}
+
+nav li {
+	position: relative;
+    display: inline-block;
+    white-space: pre-wrap;
+    margin: 2%;
+    max-width: 100%;
+
+}
+
+nav li:hover a {
+	background:#C3C6C5;
+	margin: 2%;
+}
+
+nav a {
+    font-size: 18px;
+    color:#041427;
+}
+/*FIN DE CABECERA*/
+/*SECCION OFERTA DE CLASES*/
+.oferta-clases{
+    background:url('../img/grunge_wall.png');
+    padding-bottom: 4%;
+}
+
+.oferta-clases h2{
+    text-align: center;
+    color:#071321;
+     padding-top: 2%;
+}
+
+.alineacion-clases{
+    padding: 4% 2% 0%;
+}
+
+.alineacion-clase{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 14% 1%;
+    margin: 0 4%;
+  
+}
+
+.uno{ background: url('../img/dance_12.jpg');
+  background-size: cover;}
+
+.dos{
+    background: url('../img/breakdance.jpg');
+      background-size: cover;
+}
+
+.tres{background: url('../img/lirical-jazz.jpg');
+  background-size: cover;}
+
+.cuatro{background: url('../img/arabe.jpg');
+  background-size: cover;}
+
+.cinco{background: url('../img/little.jpg');
+  background-size: cover;}
+
+.seis{background: url('../img/yoga.jpg');
+  background-size: cover;}
+
+.texto{
+    background-color: black;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 6% 13%;
+    text-align: center;
+}
+
+.alineacion-clase p{
+    margin:1%;
+}
+/*SECCION FORMULARIO*/
+.formulario{
+    background: url('../img/shoes_1.jpg') no-repeat;
+    background-size: contain;
+    background-position: 100% -3em;
+    padding: 7% 0% 2% 7%;
+}
+
+.formulario h1{
+    color:#192951;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+input.formulario-llenar{
+    width: 700px;
+    background-repeat: no-repeat;
+    color: #D3D3D3;
+    cursor: text;
+    padding-left: 7%;
+    margin: 0% 0% 3%;
+}
+
+.nombre{
+    background-image: url('http://rexkirby.com/kirbyandson/images/name.svg');
+    height: 53px;
+     background-size: contain;
+     background-color: transparent;
+     border: 2px solid #D3D3D3;
+}
+
+.email{
+    background-image: url('http://rexkirby.com/kirbyandson/images/email.svg');
+    height: 53px;
+     background-size: contain;
+     background-color: transparent;
+     border: 2px solid #D3D3D3;
+}
+
+.mensaje{
+    background-image: url('http://rexkirby.com/kirbyandson/images/comment.svg');
+    height: 200px;
+    background-size: 48px;
+    background-color: transparent;
+    border: 2px solid #D3D3D3;
+}
+
+input.enviar{
+    cursor: pointer;
+    font-size: 15px;
+    border:none;
+}
+
+.oferta{
+    color: #C3C6C5;
+    text-align: center;
+    padding: 2% 9%;
+    background-color: #192951;
+    border-radius: 5px;
+}
+/*PIE DE PAGINA*/
+.escuela{
+    padding: 2%;
+    background-color:#192951; 
+    color:white;
+}

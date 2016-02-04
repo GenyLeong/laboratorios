@@ -1,0 +1,155 @@
+/*START CABECERA*/
+header{
+	text-align: center;
+	color:#071321;
+	 padding-top: 2%;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+    line-height: 1%;
+    text-transform: uppercase;
+    white-space: normal;
+}
+
+nav li {
+	position: relative;
+    display: inline-block;
+    white-space: pre-wrap;
+    margin: 2%;
+    max-width: 100%;
+}
+
+nav li:hover a {
+	background:#C3C6C5;
+	margin: 2%;
+}
+
+nav a {
+    font-size: 18px;
+    color:#041427;
+}
+/*SECCION CLASES BLOG*/
+.blog-clases{
+    background:url('../img/lined_paper.png');
+    padding-bottom: 4%;
+}
+
+.blog-clase{
+    margin: 4% 18% 0%;
+}
+
+.titulo{
+    text-align: center;
+    color:#071321;
+     padding-top: 2%;
+}
+
+.caja-block{
+    background: url('../img/textura_2.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.blog1{
+    max-width: 100%;
+    height: 180px;
+    object-position: 0 0;
+    object-fit: cover;
+
+}
+
+.caja-texto{
+    color:#071321;
+}
+
+.blog-vermas{
+    color: #C3C6C5;
+    text-align: center;
+    background-color: #192951;
+    border-radius: 5px;
+    padding: 1% 6%;
+    margin: 1%;
+    margin-left: 2%;
+}
+
+.caja-texto h2,p{
+    margin: 1%;
+    margin-left: 2%;
+    font-size: 16px;
+}
+
+.text{
+    margin-bottom: 2%;
+    font-size: 12px;
+}
+/*SECCION FORMULARIO*/
+.formulario{
+    background: url('../img/shoes_1.jpg') no-repeat;
+    background-size: contain;
+    background-position: 100% -3em;
+    padding: 7% 0% 2% 7%;
+}
+
+.formulario h1{
+    color:#192951;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+input.formulario-llenar{
+    width: 700px;
+    background-repeat: no-repeat;
+    color: #D3D3D3;
+    cursor: text;
+    padding-left: 7%;
+    margin: 0% 0% 3%;
+}
+
+.nombre{
+    background-image: url('http://rexkirby.com/kirbyandson/images/name.svg');
+    height: 53px;
+     background-size: contain;
+     background-color: transparent;
+     border: 2px solid #D3D3D3;
+}
+
+.email{
+    background-image: url('http://rexkirby.com/kirbyandson/images/email.svg');
+    height: 53px;
+     background-size: contain;
+     background-color: transparent;
+     border: 2px solid #D3D3D3;
+}
+
+.mensaje{
+    background-image: url('http://rexkirby.com/kirbyandson/images/comment.svg');
+    height: 200px;
+    background-size: 48px;
+    background-color: transparent;
+    border: 2px solid #D3D3D3;
+}
+
+input.enviar{
+    cursor: pointer;
+    font-size: 15px;
+    border:none;
+}
+
+.oferta{
+    color: #C3C6C5;
+    text-align: center;
+    padding: 2% 9%;
+    background-color: #192951;
+    border-radius: 5px;
+}
+/*SECCION PIE DE PAGINA*/
+.escuela{
+    padding: 2%;
+    background-color:#192951; 
+    color:white;
+}

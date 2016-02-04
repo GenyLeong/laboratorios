@@ -1,0 +1,133 @@
+/*CABECERA PRETIFF PRINCIPAL*/
+a{
+    text-decoration: none;
+}
+
+body{
+     background: url('../images/tile1.png') no-repeat; 
+     font-family: Arial; 
+     background-size: cover; 
+}
+nav ul {
+    list-style-type: none;
+    margin: 0.5% 0% 0% 36%;
+    font-size: 10px;
+    line-height: 1%;
+    text-transform: uppercase;
+    white-space: normal;
+    padding-left: 10px;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+    margin: 33px;
+    padding: 0px;
+}
+
+nav li:hover a {
+	background: #E9EAED;
+}
+
+nav a {
+    padding: 5px 10px;
+    text-shadow: 1px 2px 4px #FCB739;
+    font-size: 16px;
+}
+/*SECCION PORTADA*/
+.portada{
+    background: url('../images/background.jpg') no-repeat;
+    background-size: cover;
+    margin: 0 1%;
+    text-align: center;
+    padding-bottom: 5%;
+    color: #8F03E3;
+}
+
+.logo{
+    width: 12%;
+    height: 105px;
+    position: relative;
+    top: 40px;
+    left: 26%;
+}
+
+.nombre{
+    font-size: 45px;
+    margin-top: 59px;
+    color: whitesmoke;
+}
+
+.yolo{
+    font-size: 43px;
+    color:whitesmoke;
+}
+/*SECCION DESCRIPCION*/
+.titulos{
+    text-align: center;
+    font-size: 30px;
+    margin: 2%;
+    color: #CD7E91;
+}
+
+.resaltado{
+    color:#8F03E3;
+    text-align:center;
+}
+
+.titulos a{
+    display: inline block;
+}
+
+.presentacion{
+    display: inline-block;
+}
+
+.imagen{
+    height: 140px;
+    margin-left: 30%;
+    width: 61%;
+    max-width: 100%;
+ }
+
+.texto{
+      margin: 0 10% 0 5%;
+}
+
+.cosas{
+    text-align: center;
+}
+
+.things{
+    border-radius: 50%;
+    border: 2px solid #8F03E3;
+    width: 61%;
+    height: 240px;
+    padding: 2px;
+    margin: 14% 0 5% 0;
+}
+
+.uno{
+    margin-left: 27%;
+}
+
+.dos{
+    margin-left: 17%;
+}
+
+.tres{
+    margin-left: 10%;
+}
+
+.cuatro{
+    margin-left: 8%;
+}
+/*PIE DE PAGINA*/
+.contacto{
+    background: url('../images/tile2.png');
+    padding: 1% 37%;
+}
+
+.red{
+    margin: 5% 0% 0 3%;
+}

@@ -1,0 +1,287 @@
+/*START HEADER*/
+header {
+	padding: 15px 0px;
+	margin: 0px;
+	color: #FFF;
+	background: linear-gradient(to right, rgba(252,252,252,0.34) 0%, rgba(243,243,243,0.23) 10%, rgba(207,207,207,0.23) 49%, rgba(217,217,217,0.23) 50%, rgba(224,224,224,0.23) 100%);
+}
+
+input.lupa{
+    width: 200px;
+    height: 40px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABfUlEQVQ4T5WTQU6DQBSGnYbuSMSF++KuaancQHsCdWHc4gns1h03EOMF6MalcgSOMGmLLOkRTMrCAIX+r5khQIaYTjKZmTfvfbz3z4OdNcZqtXIYY3dVVdlkxp5jBtPpdNn0a+4ZHZIkMdI0/aYYBPuDweBP07SfLMuuAFjAfq7r+tw0zd8u6AhYr9chArcI5FhHMAUI4DJgs9ksYHdgu+1CmEibUg8ww8lkwlXpwo/uuWVZbqsE8XVvOBzy8Xi87as1iiK7LMsAAMqwHgyACqc5WXAZ9gFEqRV8jmXLcQSgtguVQF0Y+aoAHOI5fbVLSBzHozzP+Ww2M7oZuKQ8Lpx/0lf6MeqB3W5H4i0A8VUQpP4E+yc+9AWfx1YGdCCF9/t9iGd6gx7vUg/RYC9wecX8AOASawXIcy2i3IhMPJzvAUqE3UbQEmfqwBvqRmRLPjWk9SRNwfDmRlNYNJIP0HUXogT0iamCnAQgsITgZ3soiiI5GSA60sVK/493AOCX0YrhFjsIAAAAAElFTkSuQmCC");
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: 1px solid #D3D3D3;
+    color: #D3D3D3;
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+    left: 18%;
+    background-position: 95%;
+    padding-left: 1%;
+}
+
+.logo {
+    width: 50%;
+    height: 48px;
+}
+
+.cinema{
+    color: #E6E7E1;
+    position: absolute;
+    font-size: 12px;
+    top: 33px;
+    right: 63%;
+    font-family: Arial;
+}
+/*END HEADER*/
+
+/*MENU PRINCIPAL*/
+.principal{
+	
+    background: url('../img/banner.jpg') no-repeat;
+	background-color: #383838;
+    height: 438px;
+    background-size: contain;
+}
+
+.principal .icono{
+    width: 4%;
+    height: 5%;
+    position: relative;
+    top: 196px;
+    left: 11%;
+}
+
+.hero{
+	width: 27%;
+    height: 432px;
+    position: absolute;
+    right: 20%;
+}
+
+.hero hr{
+	width: 75%;
+    background-color: #6c6c6c;
+    height: 0.1%;
+    position: relative;
+    top: 10%;
+    left: 8%;
+}
+
+.hero h2{
+    color: #d3d3d3;
+    position: relative;
+    left: 9%;
+    top: 7%;
+    font-family: sans-serif;
+    font-size: 34px;
+}
+
+.age{
+    width: 56px;
+    height: 28px;
+    border: 1px solid #00FF7F;
+    border-radius: 10%;
+    position: relative;
+    top: 36%;
+    left: 7%;
+    padding: 2%;
+}
+
+.age p{
+    color: #00FF7F;
+}
+
+.don{
+    color: #d3d3d3;
+    width: 64%;
+    box-sizing: border-box;
+    height: 14%;
+    margin-top: 41px;
+    font-family: Arial;
+}
+
+.don p{
+    float:right;
+    font-size: 13px;
+}
+
+td{
+    position: relative;
+    top: 4px;
+    left: 18px;
+    color: #d3d3d3;
+    width: 164px;
+    font-size: 13px;
+    font-family: Arial;
+ }
+
+td:nth-of-type(odd){
+    font-weight: bold;
+}
+
+.texto{
+    width: 78%;
+    height: 12%;
+    color: #d3d3d3;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.botones{
+    width: 32%;
+    font-size: 12px; 
+    position: relative; 
+    left: 24px;
+    height: 47px;
+    border-radius: 7%;
+    padding: 4%; 
+}
+
+.mirar{
+    background-color: #dfb636;
+    top: 92px;
+}
+
+.mirar p{
+    margin-top: -13%;
+    margin-left: 7%;
+}
+
+.ticket {
+    background-color: #bb7b29;
+    top: 108px;
+}
+
+.ticket p{
+    margin-top: -13%;
+    margin-left: 9%;
+}
+
+.fa{
+    color: #ffffff;
+    position: relative;
+    right: 12px;
+}
+
+a{
+    text-decoration:none;
+    color:#ffffff;
+    font-family: Arial;
+} 
+/* FIN MENU PRINCIPAL*/
+
+/*SECCION DE FOTOS DE PELICULAS*/
+.fotos{
+    background-color: #dfb636;
+    padding: 1%;
+}
+
+.estrenos {
+    height: 252px;
+    width: 85%;
+    margin: 4% 11%;
+}
+/*FIN SECCION DE FOTOS DE PELICULAS*/
+
+/*SECCION DE LETRAS, NOTICIAS Y FOTOS DE PELICULAS*/
+.letras .up{
+    color: #d1d1d1;
+    margin-top: 40px;
+    font-size: 26px;
+    font-family: Arial;
+}
+
+.down{
+    color: #d1d1d1;
+    margin-top: 27px;
+    font-size: 26px;
+    font-family: Arial;
+}
+
+.letras h1{
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.letras .ticket .abajo{
+    position: relative;
+    top: -2px;
+    color: #ffffff;
+    font-size: 12px;}
+
+.letras .dcto{
+    position: relative;
+    top: 55px;
+    color: #bb7b29;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.dos{
+    width: 20%;
+    height: 68px;
+    top: 29px;
+    left: 0px;
+}
+
+.menu{
+    font-family: Arial;
+    color:#d1d1d1;
+    font-size: 14px;
+    margin-top: 1%;
+}
+
+.negrita{
+    color:black;
+}
+
+.separador{
+        margin: 27px 0px;
+        opacity: 0.2;
+}
+
+.mas{
+    color: #dfb636;
+    font-size: 12px;
+}
+
+.le{
+    width: 77%;
+    height: 310px;
+    margin: 12% 0%;
+}
+
+.derecha{
+    float: right;
+}
+
+.two{
+        margin-left: 8%;
+}
+
+.three{
+    margin-left: 15%;
+}
+/*FIN DE SECCION DE LETRAS, NOTICIAS Y FOTOS DE PELICULAS*/
+
+/*PIE DE PAGINA*/
+footer{
+    color: #D4D4D4;
+    background-color: #F3F3F3;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 2%;
+ }
+
+.enlace{
+    font-size: 11px;
+    color: #D4D4D4;
+}
+/*FIN DE PIE DE PAGINA*/
